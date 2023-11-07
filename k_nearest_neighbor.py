@@ -4,7 +4,7 @@ Credits: the original code belongs to Stanford CS231n course assignment1. Source
 """
 
 class KNearestNeighbor:
-    """ a kNN classifier with L2 distance """
+    #""" a kNN classifier with L2 distance """
 
     def __init__(self):
         pass
