@@ -143,7 +143,7 @@ class KNearestNeighbor:
           test data, where y[i] is the predicted label for the test point X[i].
         """
         num_test = dists.shape[0]
-        y_pred = np.zeros(num_test)
+        y_pred=np.zeros(num_test)
         for i in range(num_test):
             # A list of length k storing the labels of the k nearest neighbors to
             # the ith test point.
